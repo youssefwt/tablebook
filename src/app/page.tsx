@@ -1,6 +1,6 @@
 import RestaurantCard from "@/components/RestaurantCard";
 import SearchBar from "@/components/SearchBar";
-import { Button } from "@mantine/core";
+import { Button, Group } from "@mantine/core";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,9 +15,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="py-3 px-16 mt-10 flex flex-wrap">
+      <Group justify="center">
         <RestaurantCard />
-      </div>
+      </Group>
     </div>
   );
 }

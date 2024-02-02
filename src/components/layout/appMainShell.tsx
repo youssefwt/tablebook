@@ -13,7 +13,7 @@ const AppMainShell = ({ children }: { children: ReactNode }) => {
             </AppShell.Header>
 
             <AppShell.Main pt={rem(60)} >
-                <Container>
+                <Container size='xl'>
                     {children}
                 </Container>
             </AppShell.Main>
