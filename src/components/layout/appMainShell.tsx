@@ -12,7 +12,7 @@ const AppMainShell = ({ children }: { children: ReactNode }) => {
                 <Navbar />
             </AppShell.Header>
 
-            <AppShell.Main pt={`calc(${rem(60)} + var(--mantine-spacing-md))`}>
+            <AppShell.Main pt={rem(60)} >
                 <Container>
                     {children}
                 </Container>
