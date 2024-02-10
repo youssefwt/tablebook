@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from './Header'
-import Link from 'next/link'
 import ReservationCard from './ReservationCard'
 import { Avatar, Flex } from '@mantine/core'
+import RestaurantNav from '../RestaurantNav'
 
 const Details = () => {
     return (
@@ -12,10 +12,7 @@ const Details = () => {
             <div className="flex m-auto w-2/3 justify-between items-start 0 -mt-11">
                 <div className="bg-white w-[70%] rounded p-3 shadow">
                     {/* RESAURANT NAVBAR */}
-                    <nav className="flex text-reg border-b">
-                        <Link href="" className="px-4 py-2 hover:bg-neutral-100"> Overview </Link>
-                        <Link href="" className="px-4 py-2 hover:bg-neutral-100"> Menu </Link>
-                    </nav>
+                    <RestaurantNav />
                     {/* RESAURANT NAVBAR */} {/* TITLE */}
                     <div className="mt-4 border-b pb-6">
                         <h1 className="font-bold text-6xl">Milesstone Grill</h1>
